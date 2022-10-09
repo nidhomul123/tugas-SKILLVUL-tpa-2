@@ -24,14 +24,14 @@ button.addEventListener('click', () => {
         const bmi = (weight / ((height*height)/10000)).toFixed(2);
 
         if(bmi < 18.5){
-            result.innerHTML = 'Your BMI is ' + bmi ,'which means You are = Under weight ' ;
+            result.innerHTML = 'Your BMI is ' + bmi + 'which means You are = Under weight ' ;
         }else if(bmi >= 18.5 && bmi <= 24.9){
-            result.innerHTML = 'Your BMI is ' + bmi , 'which means You are = Normal weight ' ;
+            result.innerHTML = 'Your BMI is ' + bmi + 'which means You are = Normal weight ' ;
         }else if(bmi >= 25 && bmi <= 29.9){
-            result.innerHTML = 'Your BMI is ' + bmi , 'which means You are = Over weight ' ;
+            result.innerHTML = 'Your BMI is ' + bmi + 'which means You are = Over weight ';
         }
         else{
-            result.innerHTML = 'Your BMI is ' + bmi , 'which means You are = Obesity' ;
+            result.innerHTML = 'Your BMI is ' + bmi + 'which means You are = Obesity' ;
         }
     }else{
         alert('The form has errors');
