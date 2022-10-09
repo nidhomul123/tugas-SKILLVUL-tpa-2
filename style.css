@@ -23,11 +23,12 @@ input{
     padding: 5px;
 }
 button{
-    color: rgb(50, 11, 245);
+    color: rgb(247, 247, 248);
     padding: 10px;
     border: 2px solid rgb(254, 254, 254);
-    background: rgb(78, 7, 245);
+    background: rgb(43, 4, 241);
     display: block;
     margin-top: 10%;
     cursor: pointer;
 }
+
